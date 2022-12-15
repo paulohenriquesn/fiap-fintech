@@ -1,0 +1,192 @@
+.header {
+    background-color: #2980b9;
+}
+
+.navbar-brand {
+    color:white;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.container-sign-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.container-sign-in > form > hgroup {
+    margin-bottom: 32px;
+    text-align: center;
+    margin-top: 12px;
+    text-transform: uppercase   ;
+}
+
+.container-sign-in > form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 12px 12px 12px;
+    width: 300px;
+}
+
+.container-sign-in > form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text {
+    border: none;
+    background-color: #ecf0f1;
+    width: 95%;
+    height: 48px;
+    margin-bottom: 12px;
+    padding-left: 12px;
+}
+
+.button {
+    height:48px;
+    border: none;
+    background-color: #d63031;
+    color: #fff;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #ff7675;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.cards-row {
+    display: flex;
+}
+
+.cards-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    box-shadow: 3px 2px 2px #b2bec3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:350px;
+    height:150px;
+    margin: 12px 12px 12px
+}
+
+.card > h1 {
+    font-size: 18pt;
+    margin-bottom: 12px;
+}
+
+#card-1 {
+    color: #fff;
+    background-color: #1abc9c;
+}
+#card-2 {
+    color: #fff;
+    background-color: #16a085;
+}
+#card-3 {
+    color: #fff;
+    background-color: #e67e22;
+}
+#card-4 {
+    color: #fff;
+    background-color: #2980b9;
+}
+
+.label {
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.big-card {
+    color: #fff;
+    background-color: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:720px;
+    height:100%;
+}
+
+.big-card-tooltip {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.big-card > h2 {
+    margin-top: 32px;
+}
+
+.big-card > ul {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.big-card > ul > li {
+    margin-top: 12px;
+    padding: 16px 16px 16px;
+}
+
+.big-card > ul > li > div {
+    background-color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.big-card > ul > li > div > img {
+    margin-right: 32px;
+}
+
+.big-card > ul > li > div {
+    border: 1px solid #000;
+    box-shadow: 1px 2px 2px #b2bec3;
+    padding: 22px 84px 22px
+}
+
+.big-card > ul > li > div > div  {
+    display: flex;
+    flex-direction: column;
+}
+
+#price {
+    width: 64px;
+}
+
+#price, label {
+    color: black
+}
+
+.big-card {
+    margin-bottom: 32px;
+}
+
+#date-time {
+    margin-left: 32%;
+    opacity: 40%;
+}
+
+.label-payment {
+    margin-bottom: 12px;
+}
+
+.history-link {
+    margin-top: -32px;
+}
